@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-mongoose.connect('mongodb://localhost:27017/blu-reserve', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://tejashwini233:uk7SGcQ6QJ5Lukxj@cluster0.vv5hg.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('MongoDB connection error:', err));
 
